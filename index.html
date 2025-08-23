@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- nav bar-->
+    <nav style="text-align: right; font-size: 40px;">
+      <a style="color: rgb(9, 231, 83);" href="#home">HOME</a>
+      <a style="color: aliceblue;" href="#about">ABOUT</a>
+      <a style="color: aliceblue;" href="#project">PROJECTS</a>
+      <a style="color: aliceblue;" href="#contact">CONTACT</a>
+    </nav>
+    <!-- <div style="text-align:left; font-size: 40px;">
+        <h1 style="color: aliceblue" >
+          <em>AM<span style="color: rgb(172, 27, 215)">ITH.</em></span>
+        </h1>
+      </div> -->
+  </header>
+  <main>
+    <br /><br /><br /><br />
+    <!-- home section -->
+    <section id="home">
+      <h1 style="text-align: justify center">
+        Hi, I'm <span style="color: rgb(96, 3, 71);font-size: 70px;">Amithbal B R</span>
+      </h1>
+      <p style="font-size: 30px; color: white;">
+        I can work on both the front-end and back-end of a web application or<br />
+        website.
+        “I build modern, scalable, and user-friendly web applications.”
+      </p>
+    </section>
+    <div style="text-align:right"><img src="image\Amith.png" alt="Amith" width="400px" /></div>
+    <!-- About section -->
+    <section id="about">
+      <nav>
+        <h2 style="color: yellow;">ABOUT ME</h2>
+        <ul>
+          <li style="font-size: 30px;color: aliceblue;">
+            “I’m a Physics graduate turned Web Developer, passionate about <br>
+            building responsive
+            websites and scalable backend systems. <br>
+            Previously worked as a station agent in Dubai Metro, <br> now transitioning into IT with strong
+            problem-solving and teamwork skills.”</li>
+          <li style="font-size: 30px;color: aliceblue;">I have knowledge in both front-end and back-end web development.
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <br><br><br>
+    <!-- skills section-->
+    <h2 style="color: yellow;">SKILLS</h2>
+    <nav>
+      <ul>
+        <li style="font-size: 30px;color: aliceblue;">Frontend: HTML, CSS, JavaScript, React</li>
+        <li style="font-size: 30px;color: aliceblue;">Backend: Node.js, Express, MongoDB</li>
+        <li style="font-size: 30px;color: aliceblue;">Tools: Git, GitHub, VS Code</li>
+        <li style="font-size: 30px;color: aliceblue;">Cloud/Deployment: Netlify</li>
+      </ul>
+      <section id="project">
+    </nav>
+    <!-- project section-->
+    <h2 style="color: yellow;">PROJECTS</h2>
+    <nav>
+      <ul>
+        <li style="font-size: 30px;color: aliceblue;">E-Commerce Store 🛒</li>
+        <P style="font-size: 25px;">A full-stack MERN app with product filtering, <br> authentication,
+          and payment integration.</P>
+        <button style="background-color: rgb(50, 35, 188); color: aliceblue;"><a href="https://www.flipkart.com/"
+            target="_blank"><span style="color: aliceblue;font-size: 20px;">DEMO</span></a></button>
+        <br><br>
+        <li style="font-size: 30px;color: aliceblue;">My Blog</li>
+        <P style="font-size: 25px;">A simple Blog of mine using HTML sematics. <br>
+          Which use form,button,section,nav tags. </P>
+        <button style="background-color: brown; font-size: 20px;"><a
+            href="https://heartfelt-rabanadas-987936.netlify.app/" target="_blank"><span style="color: aliceblue;">MY
+              BLOG</span></a></button>
+      </ul>
+      <br><br>
+    </nav>
+    <!-- contact info -->
+    </section>
+    <section id="contact">
+      <h2 style="color: yellow;">CONTACT</h2>
+      <form action="#" method="post">
+        <p style="color: rgb(187, 6, 6);font-size: 40px;font-family:'Times New Roman', Times, serif;"><b>AMITHBAL B
+            R</b></p>
+        <a style="color: white;font-size: 25px; font-family: 'Times New Roman', Times, serif;"
+          href="mailto:amithsanthi@gmail.com">
+          &#9993; <!-- ✉ -->: amithsanthi@gmail.com</a><br><br>
+        <a href="tel:+8547671782"
+          style="color: rgb(239, 239, 244); text-decoration: none; font-size: 25px; font-family: 'Times New Roman', Times, serif;">
+          &#9742; Call Us: +91 8547671782</a><br><br>
+        <a style="color: white;font-size: 25px; font-family: 'Times New Roman', Times, serif;" href="#">LinkedIn
+          &nbsp;&nbsp;&nbsp;</a>
+        <a style="color: white;font-size: 25px; font-family: 'Times New Roman', Times, serif;"
+          href="#">GitHub</a><br><br>
+      </form>
+      <!-- contact me -->
+      <h2 style="text-align: center;font-size: 35px; color: rgb(32, 4, 83);">Contact Me</h2>
+      <form action="#" method="post" style="text-align: center; font-size: 30px;">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="E.g. Jamie smith" required minlength="5"
+          style="font-size: 20px;"><br><br>
+        <!-- email -->
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" placeholder="example.123@gmail.com" required minlength="5"
+          maxlength="30" style="font-size: 20px;"><br><br>
+        <!-- phone -->
+        <label for="phone">Phone no &nbsp;</label>
+        <input type="tel" name="phone" id="phone" required pattern="^\+[1-9]{1}[0-9]{3,14}$"
+          placeholder="with international code" style="font-size: 20px;"><br><br>
+          <label for="subject">Subject &nbsp;</label>
+        <input type="text" name="subject" id="subject" placeholder="How can i help you.?" required minlength="5"
+          style="font-size: 20px;">
+          <br><br>
+        <!-- message -->
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" rows="7" cols="50"></textarea><br>
+        <button style="font-size: 15px; background-color: rgb(7, 7, 7); color: #faf9f9;" type="submit">SUBMIT</button>
+        <button style="font-size: 15px; background-color: rgb(237, 5, 5); color: #faf9f9;" type="reset">RESET</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p style="color: aliceblue; font-size: 20px; text-align: center;">copright &copy Amithbal B R</p>
+    <p style="text-align: center; font-size: 20px;"> &#128591 <b
+        style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">THANK YOU</b> &#128591</p>
+  </footer>
+</body>
+
+</html>
